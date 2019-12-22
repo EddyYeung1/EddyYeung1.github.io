@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Archivo', sans-serif;
   line-height: 1.5;
 }
 canvas {
@@ -39,12 +39,12 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    background: burlywood;
   }
 }
 
 a {
-  color: white;
+  color: burlywood;
   text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ main {
   }
 
   .job {
-    background: lighten($primary-color, 5);
+    background: white;
     padding: 0.5em;
     border-bottom: $secondary-color 5px solid;
     text-align: center;
@@ -139,7 +139,7 @@ main {
 
   h6 {
     color: $secondary-color;
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
 #workHeader {
@@ -151,7 +151,9 @@ main {
   grid-template-areas:
     "p1 t1"
     "t2 p2"
-    "p3 t3";
+    "p3 t3"
+    "t4 p4"
+    "p5 t5";
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 2fr);
 
@@ -182,6 +184,18 @@ main {
   .t3 {
     grid-area: t3;
   }
+  .t4 {
+    grid-area: t4;
+  }
+  .p4 {
+    grid-area: p4;
+  }
+  .t5 {
+    grid-area: t5;
+  }
+  .p5 {
+    grid-area: p5;
+  }
 
   p {
     font-size: 1.25em;
@@ -209,7 +223,7 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: burlywood;
   color: #fff;
 }
 

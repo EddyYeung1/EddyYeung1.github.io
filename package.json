@@ -3,19 +3,25 @@
   "version": "1.0.0",
   "description": "portfolio website",
   "main": "index.js",
-  "repository": "https://github.com/EddyYeung1/EddyYeung1.github.io",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyYeung1/Portfolio-Website.git"
   },
   "author": "",
   "license": "MIT",
-  "homepage": "https://EddyYeung1.github.io/",
+  "bugs": {
+    "url": "https://github.com/EddyYeung1/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/EddyYeung1/Portfolio-Website#readme",
   "dependencies": {
     "animate.css": "^3.7.0",
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.9.3",
     "particle.js": "^1.0.7",
     "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
   }
 }

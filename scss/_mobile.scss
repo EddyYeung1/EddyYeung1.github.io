@@ -78,7 +78,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../img/profile-small.png");
+      background: url("../img/newPic-small.png");
       width: 150px;
       height: 150px;
     }
@@ -101,7 +101,11 @@
       "p2"
       "t2"
       "p3"
-      "t3";
+      "t3"
+      "p4"
+      "t4"
+      "p5"
+      "t5";
     grid-template-columns: 1fr;
     grid-gap: 1em;
   }
@@ -128,7 +132,11 @@
       "p2"
       "t2"
       "p3"
-      "t3";
+      "t3"
+      "p4"
+      "t4"
+      "p5"
+      "t5";
     grid-template-columns: 1fr;
   }
 
